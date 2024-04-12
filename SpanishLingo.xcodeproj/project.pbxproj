@@ -14,6 +14,16 @@
 		00662A9E2BC8A37100C1D7FB /* SpanishLingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00662A9D2BC8A37100C1D7FB /* SpanishLingoTests.swift */; };
 		00662AA82BC8A37100C1D7FB /* SpanishLingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00662AA72BC8A37100C1D7FB /* SpanishLingoUITests.swift */; };
 		00662AAA2BC8A37100C1D7FB /* SpanishLingoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00662AA92BC8A37100C1D7FB /* SpanishLingoUITestsLaunchTests.swift */; };
+		00662ABD2BC8DA0200C1D7FB /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00662ABC2BC8DA0200C1D7FB /* WidgetKit.framework */; };
+		00662ABF2BC8DA0200C1D7FB /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00662ABE2BC8DA0200C1D7FB /* SwiftUI.framework */; };
+		00662AC22BC8DA0200C1D7FB /* SpanishLingoWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00662AC12BC8DA0200C1D7FB /* SpanishLingoWidgetBundle.swift */; };
+		00662AC42BC8DA0200C1D7FB /* SpanishLingoWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00662AC32BC8DA0200C1D7FB /* SpanishLingoWidgetLiveActivity.swift */; };
+		00662AC62BC8DA0200C1D7FB /* SpanishLingoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00662AC52BC8DA0200C1D7FB /* SpanishLingoWidget.swift */; };
+		00662AC82BC8DA0200C1D7FB /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00662AC72BC8DA0200C1D7FB /* AppIntent.swift */; };
+		00662ACA2BC8DA0300C1D7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00662AC92BC8DA0300C1D7FB /* Assets.xcassets */; };
+		00662ACE2BC8DA0300C1D7FB /* SpanishLingoWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 00662ABA2BC8DA0200C1D7FB /* SpanishLingoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		00662AD42BC8DD4600C1D7FB /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00662AD32BC8DD4600C1D7FB /* WordModel.swift */; };
+		00662AD52BC8DD4600C1D7FB /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00662AD32BC8DD4600C1D7FB /* WordModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +41,28 @@
 			remoteGlobalIDString = 00662A882BC8A36F00C1D7FB;
 			remoteInfo = SpanishLingo;
 		};
+		00662ACC2BC8DA0300C1D7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00662A812BC8A36F00C1D7FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00662AB92BC8DA0200C1D7FB;
+			remoteInfo = SpanishLingoWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00662AD22BC8DA0300C1D7FB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				00662ACE2BC8DA0300C1D7FB /* SpanishLingoWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00662A892BC8A36F00C1D7FB /* SpanishLingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpanishLingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +75,16 @@
 		00662AA32BC8A37100C1D7FB /* SpanishLingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpanishLingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00662AA72BC8A37100C1D7FB /* SpanishLingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishLingoUITests.swift; sourceTree = "<group>"; };
 		00662AA92BC8A37100C1D7FB /* SpanishLingoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishLingoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00662ABA2BC8DA0200C1D7FB /* SpanishLingoWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SpanishLingoWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		00662ABC2BC8DA0200C1D7FB /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		00662ABE2BC8DA0200C1D7FB /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		00662AC12BC8DA0200C1D7FB /* SpanishLingoWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishLingoWidgetBundle.swift; sourceTree = "<group>"; };
+		00662AC32BC8DA0200C1D7FB /* SpanishLingoWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishLingoWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		00662AC52BC8DA0200C1D7FB /* SpanishLingoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishLingoWidget.swift; sourceTree = "<group>"; };
+		00662AC72BC8DA0200C1D7FB /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		00662AC92BC8DA0300C1D7FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00662ACB2BC8DA0300C1D7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00662AD32BC8DD4600C1D7FB /* WordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +109,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00662AB72BC8DA0200C1D7FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00662ABF2BC8DA0200C1D7FB /* SwiftUI.framework in Frameworks */,
+				00662ABD2BC8DA0200C1D7FB /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +127,8 @@
 				00662A8B2BC8A36F00C1D7FB /* SpanishLingo */,
 				00662A9C2BC8A37100C1D7FB /* SpanishLingoTests */,
 				00662AA62BC8A37100C1D7FB /* SpanishLingoUITests */,
+				00662AC02BC8DA0200C1D7FB /* SpanishLingoWidget */,
+				00662ABB2BC8DA0200C1D7FB /* Frameworks */,
 				00662A8A2BC8A36F00C1D7FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +139,7 @@
 				00662A892BC8A36F00C1D7FB /* SpanishLingo.app */,
 				00662A992BC8A37100C1D7FB /* SpanishLingoTests.xctest */,
 				00662AA32BC8A37100C1D7FB /* SpanishLingoUITests.xctest */,
+				00662ABA2BC8DA0200C1D7FB /* SpanishLingoWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +151,7 @@
 				00662A8E2BC8A36F00C1D7FB /* ContentView.swift */,
 				00662A902BC8A37100C1D7FB /* Assets.xcassets */,
 				00662A922BC8A37100C1D7FB /* Preview Content */,
+				00662AD32BC8DD4600C1D7FB /* WordModel.swift */,
 			);
 			path = SpanishLingo;
 			sourceTree = "<group>";
@@ -127,6 +181,28 @@
 			path = SpanishLingoUITests;
 			sourceTree = "<group>";
 		};
+		00662ABB2BC8DA0200C1D7FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00662ABC2BC8DA0200C1D7FB /* WidgetKit.framework */,
+				00662ABE2BC8DA0200C1D7FB /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00662AC02BC8DA0200C1D7FB /* SpanishLingoWidget */ = {
+			isa = PBXGroup;
+			children = (
+				00662AC12BC8DA0200C1D7FB /* SpanishLingoWidgetBundle.swift */,
+				00662AC32BC8DA0200C1D7FB /* SpanishLingoWidgetLiveActivity.swift */,
+				00662AC52BC8DA0200C1D7FB /* SpanishLingoWidget.swift */,
+				00662AC72BC8DA0200C1D7FB /* AppIntent.swift */,
+				00662AC92BC8DA0300C1D7FB /* Assets.xcassets */,
+				00662ACB2BC8DA0300C1D7FB /* Info.plist */,
+			);
+			path = SpanishLingoWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +213,12 @@
 				00662A852BC8A36F00C1D7FB /* Sources */,
 				00662A862BC8A36F00C1D7FB /* Frameworks */,
 				00662A872BC8A36F00C1D7FB /* Resources */,
+				00662AD22BC8DA0300C1D7FB /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				00662ACD2BC8DA0300C1D7FB /* PBXTargetDependency */,
 			);
 			name = SpanishLingo;
 			productName = SpanishLingo;
@@ -183,6 +261,23 @@
 			productReference = 00662AA32BC8A37100C1D7FB /* SpanishLingoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		00662AB92BC8DA0200C1D7FB /* SpanishLingoWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00662ACF2BC8DA0300C1D7FB /* Build configuration list for PBXNativeTarget "SpanishLingoWidgetExtension" */;
+			buildPhases = (
+				00662AB62BC8DA0200C1D7FB /* Sources */,
+				00662AB72BC8DA0200C1D7FB /* Frameworks */,
+				00662AB82BC8DA0200C1D7FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpanishLingoWidgetExtension;
+			productName = SpanishLingoWidgetExtension;
+			productReference = 00662ABA2BC8DA0200C1D7FB /* SpanishLingoWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +299,9 @@
 						CreatedOnToolsVersion = 15.3;
 						TestTargetID = 00662A882BC8A36F00C1D7FB;
 					};
+					00662AB92BC8DA0200C1D7FB = {
+						CreatedOnToolsVersion = 15.3;
+					};
 				};
 			};
 			buildConfigurationList = 00662A842BC8A36F00C1D7FB /* Build configuration list for PBXProject "SpanishLingo" */;
@@ -222,6 +320,7 @@
 				00662A882BC8A36F00C1D7FB /* SpanishLingo */,
 				00662A982BC8A37100C1D7FB /* SpanishLingoTests */,
 				00662AA22BC8A37100C1D7FB /* SpanishLingoUITests */,
+				00662AB92BC8DA0200C1D7FB /* SpanishLingoWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +349,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00662AB82BC8DA0200C1D7FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00662ACA2BC8DA0300C1D7FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00662A8F2BC8A36F00C1D7FB /* ContentView.swift in Sources */,
+				00662AD42BC8DD4600C1D7FB /* WordModel.swift in Sources */,
 				00662A8D2BC8A36F00C1D7FB /* SpanishLingoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +387,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00662AB62BC8DA0200C1D7FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00662AC62BC8DA0200C1D7FB /* SpanishLingoWidget.swift in Sources */,
+				00662AC82BC8DA0200C1D7FB /* AppIntent.swift in Sources */,
+				00662AC22BC8DA0200C1D7FB /* SpanishLingoWidgetBundle.swift in Sources */,
+				00662AC42BC8DA0200C1D7FB /* SpanishLingoWidgetLiveActivity.swift in Sources */,
+				00662AD52BC8DD4600C1D7FB /* WordModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +411,11 @@
 			isa = PBXTargetDependency;
 			target = 00662A882BC8A36F00C1D7FB /* SpanishLingo */;
 			targetProxy = 00662AA42BC8A37100C1D7FB /* PBXContainerItemProxy */;
+		};
+		00662ACD2BC8DA0300C1D7FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00662AB92BC8DA0200C1D7FB /* SpanishLingoWidgetExtension */;
+			targetProxy = 00662ACC2BC8DA0300C1D7FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,6 +542,7 @@
 		00662AAE2BC8A37100C1D7FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +572,7 @@
 		00662AAF2BC8A37100C1D7FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +675,60 @@
 			};
 			name = Release;
 		};
+		00662AD02BC8DA0300C1D7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z22AS8XRY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpanishLingoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpanishLingoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcmehdi.SpanishLingo.SpanishLingoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00662AD12BC8DA0300C1D7FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z22AS8XRY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpanishLingoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpanishLingoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcmehdi.SpanishLingo.SpanishLingoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -583,6 +764,15 @@
 			buildConfigurations = (
 				00662AB42BC8A37100C1D7FB /* Debug */,
 				00662AB52BC8A37100C1D7FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00662ACF2BC8DA0300C1D7FB /* Build configuration list for PBXNativeTarget "SpanishLingoWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00662AD02BC8DA0300C1D7FB /* Debug */,
+				00662AD12BC8DA0300C1D7FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
